@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ateeb Karim — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="orbs">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="orb orb3"></div>
+    </div>
+    <nav id="mainNav">
+        <div class="nav-logo">AK</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li>
+                <a href="https://linkedin.com/in/ateeb-karim" target="_blank" rel="noopener">LinkedIn ↗</a>
+            </li>
+            <li>
+                <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener">GitHub ↗</a>
+            </li>
+            <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+    <section id="hero">
+        <div class="hero-inner">
+            <h1 class="hero-name">
+                <span class="line1">Ateeb</span>
+                <span class="line2">Karim</span>
+            </h1>
+            <p class="hero-role">
+                <span id="typeTarget"></span><span class="tc"></span>
+            </p>
+            <p class="hero-desc">
+                Final-year IT student at University of Malakand. I build fast, clean,
+                interactive frontends.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener" class="btn btn-ghost">GitHub
+                    ↗</a>
+                <a href="https://linkedin.com/in/ateeb-karim" target="_blank" rel="noopener"
+                    class="btn btn-ghost">LinkedIn ↗</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="eyebrow reveal">About Me</div>
+        <h2 class="section-title reveal">
+            Passionate web developer<br />from Malakand, KPK
+        </h2>
+        <div class="about-wrap">
+            <div class="reveal-left">
+                <div class="about-avatar-wrap">
+                    <div class="about-avatar">AK</div>
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-ring2"></div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Ateeb Karim</strong>, a final-year B.S. Information
+                        Technology student, University of Malakand. I
+                        describe myself as a <strong>passionate web developer</strong> —
+                        and I mean it, with 26 public repos to prove it.
+                    </p>
+                    <p>
+                        My path is project-first: I learn by building real things,
+                        debugging them, and shipping them publicly. From vanilla JS games
+                        to React apps with custom hooks and Context API, every project
+                        closes a gap between what I know and what industry needs.
+                    </p>
+                    <p>
+                        I'm actively seeking a
+                        <strong>frontend internship or junior developer role</strong>
+                        where I can contribute to real products and grow alongside a team.
+                    </p>
+                </div>
+            </div>
+            <div class="reveal-right">
+                <div class="skills-section">
+                    <h3>Tech Stack</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag" style="animation-delay: 0.05s">HTML5</span>
+                        <span class="skill-tag" style="animation-delay: 0.1s">CSS3</span>
+                        <span class="skill-tag" style="animation-delay: 0.15s">JavaScript</span>
+                        <span class="skill-tag" style="animation-delay: 0.2s">React</span>
+                        <span class="skill-tag" style="animation-delay: 0.25s">Vite</span>
+                        <span class="skill-tag" style="animation-delay: 0.3s">Tailwind CSS</span>
+                        <span class="skill-tag" style="animation-delay: 0.35s">React Hooks</span>
+                        <span class="skill-tag" style="animation-delay: 0.4s">Context API</span>
+                        <span class="skill-tag" style="animation-delay: 0.45s">REST APIs</span>
+                        <span class="skill-tag" style="animation-delay: 0.5s">Git &amp; GitHub</span>
+                        <span class="skill-tag" style="animation-delay: 0.55s">Java</span>
+                        <span class="skill-tag" style="animation-delay: 0.6s">C++</span>
+                    </div>
+                </div>
+                <div class="skill-bars" style="margin-top: 2rem">
+                    <div class="skill-bar-item">
+                        <div class="sb-head">
+                            <span class="sb-name">HTML &amp; CSS</span><span class="sb-pct">90%</span>
+                        </div>
+                        <div class="sb-track">
+                            <div class="sb-fill" data-w="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="sb-head">
+                            <span class="sb-name">JavaScript</span><span class="sb-pct">80%</span>
+                        </div>
+                        <div class="sb-track">
+                            <div class="sb-fill" data-w="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="sb-head">
+                            <span class="sb-name">React</span><span class="sb-pct">72%</span>
+                        </div>
+                        <div class="sb-track">
+                            <div class="sb-fill" data-w="72"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="sb-head">
+                            <span class="sb-name">Tailwind CSS</span><span class="sb-pct">78%</span>
+                        </div>
+                        <div class="sb-track">
+                            <div class="sb-fill" data-w="78"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="eyebrow reveal">Work</div>
+        <h2 class="section-title reveal">Projects from GitHub</h2>
+        <div class="projects-filter reveal">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="react">React</button>
+            <button class="filter-btn" data-filter="js">Vanilla JS</button>
+            <button class="filter-btn" data-filter="api">API</button>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card reveal" data-tags="js api">
+                <div class="project-head">
+                    <div class="project-icon-wrap">🌤️</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/Weather-App" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Weather App</h3>
+                <p>
+                    Real-time weather application built with HTML, CSS and JavaScript.
+                    Fetches live data from a weather API and displays conditions,
+                    temperature and location info.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">JavaScript</span><span class="ptag">CSS</span><span class="ptag">API</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="js">
+                <div class="project-head">
+                    <div class="project-icon-wrap">✊</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/Rock-paper-scissor-game" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Rock Paper Scissors Game</h3>
+                <p>
+                    Classic game against the computer with score tracking, animated
+                    result reveals and responsive layout. DOM manipulation and game
+                    logic in pure JavaScript.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">JavaScript</span><span class="ptag">DOM</span><span class="ptag">Game</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="react">
+                <div class="project-head">
+                    <div class="project-icon-wrap">🎨</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/react-background-changer" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>React Background Changer</h3>
+                <p>
+                    Interactive React app that dynamically changes the page background
+                    color. Demonstrates useState, event handling, and component-driven
+                    UI in React.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">React</span><span class="ptag">useState</span><span class="ptag">Tailwind</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="js">
+                <div class="project-head">
+                    <div class="project-icon-wrap">🔐</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/password-generator" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Password Generator</h3>
+                <p>
+                    Generates strong, random passwords with customisable length and
+                    character sets. One-click copy to clipboard, built with vanilla
+                    JavaScript.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">JavaScript</span><span class="ptag">Crypto API</span><span
+                        class="ptag">Clipboard</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="js api">
+                <div class="project-head">
+                    <div class="project-icon-wrap">💬</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/quote-generator" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Quote Generator</h3>
+                <p>
+                    Fetches and displays random inspirational quotes from an API.
+                    Features smooth fade transitions between quotes and a Twitter share
+                    button.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">JavaScript</span><span class="ptag">Fetch API</span><span
+                        class="ptag">Async/Await</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="js">
+                <div class="project-head">
+                    <div class="project-icon-wrap">🎲</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim/Guess-Random-Number-game" target="_blank" rel="noopener"
+                            class="proj-link" title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Guess the Number Game</h3>
+                <p>
+                    Number guessing game with hot/cold feedback, attempt tracking, and
+                    high-score persistence. Clean UI built with vanilla JS and DOM
+                    manipulation.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">JavaScript</span><span class="ptag">localStorage</span><span class="ptag">Game
+                        Logic</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="react api">
+                <div class="project-head">
+                    <div class="project-icon-wrap">💱</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener" class="proj-link"
+                            title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>React Currency Converter</h3>
+                <p>
+                    Live currency converter with a custom
+                    <code style="font-size: 0.8em; color: var(--accent2)">useCurrencyInfo</code>
+                    hook, flag icons, and controlled swap UI. Built with Vite + Tailwind
+                    CSS.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">React</span><span class="ptag">Custom Hook</span><span
+                        class="ptag">Vite</span><span class="ptag">API</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="react">
+                <div class="project-head">
+                    <div class="project-icon-wrap">🌙</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener" class="proj-link"
+                            title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>Context API Theme Switcher</h3>
+                <p>
+                    Dark/light mode switcher using React Context API + Tailwind CSS v4
+                    <code style="font-size: 0.8em; color: var(--accent2)">
+                @custom-variant
+                </code>
+                    . No prop drilling — clean state flow across all components.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">React</span><span class="ptag">Context API</span><span class="ptag">Tailwind
+                        v4</span>
+                </div>
+            </div>
+            <div class="project-card reveal" data-tags="react">
+                <div class="project-head">
+                    <div class="project-icon-wrap">✅</div>
+                    <div class="project-links-row">
+                        <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener" class="proj-link"
+                            title="GitHub">⌥</a>
+                    </div>
+                </div>
+                <h3>React Todo App</h3>
+                <p>
+                    Feature-complete task manager: add, complete, delete — with
+                    localStorage persistence. Clean component architecture, debugged
+                    from scratch.
+                </p>
+                <div class="project-tags">
+                    <span class="ptag">React</span><span class="ptag">useState</span><span
+                        class="ptag">localStorage</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="eyebrow reveal">Background</div>
+        <h2 class="section-title reveal">Education &amp; Journey</h2>
+        <div class="timeline">
+            <div class="tl-item">
+                <div class="tl-dot"></div>
+                <p class="tl-date">2022 – Present</p>
+                <p class="tl-title">B.S. Information Technology — 7th Semester</p>
+                <p class="tl-org">
+                    SLPS College, University of Malakand · KPK, Pakistan
+                </p>
+                <p class="tl-desc">
+                    Core studies in software engineering, OOP (Java, C++), data
+                    structures, UML &amp; systems analysis. Independently pursuing
+                    frontend development alongside academics and shipping real projects
+                    continuously.
+                </p>
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <p class="tl-date">2024 – Present</p>
+                    <p class="tl-title">React Developer Path</p>
+                    <p class="tl-org">Self-Directed · 26 Public Repos</p>
+                    <p class="tl-desc">
+                        Systematically built from JSX basics → controlled components →
+                        custom hooks → Context API → Tailwind CSS v4. Every concept locked
+                        in by shipping a working project.
+                    </p>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <p class="tl-date">2023</p>
+                    <p class="tl-title">Vanilla JavaScript Projects</p>
+                    <p class="tl-org">github.com/Ateeb-Karim</p>
+                    <p class="tl-desc">
+                        Built 6+ pinned projects — Weather App, Rock Paper Scissors,
+                        Password Generator, Quote Generator, Number Guessing Game, and more.
+                        Focused on DOM manipulation, Fetch API, async/await, and
+                        localStorage.
+                    </p>
+                </div>
+                <div class="tl-item">
+                    <div class="tl-dot"></div>
+                    <p class="tl-date">Ongoing</p>
+                    <p class="tl-title">Open Source Portfolio &amp; Job Search</p>
+                    <p class="tl-org">Active · Seeking Frontend Internship</p>
+                    <p class="tl-desc">
+                        Building a public, deployable portfolio with polished
+                        implementations. Actively applying for frontend internship and
+                        junior developer roles, with tailored resumes and a growing LinkedIn
+                        presence.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section id="contact">
+        <div class="eyebrow reveal" style="justify-content: center">Contact</div>
+        <h2 class="section-title reveal">Let's build something together</h2>
+        <div class="reveal">
+            <p style="color: var(--muted); font-size: 0.95rem; margin-bottom: 0.5rem">
+                Drop me an email at
+            </p>
+            <a href="mailto:your@email.com" class="contact-email">ateebkarim.ak02@gmail.com</a>
+        </div>
+        <div class="social-row reveal">
+            <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener" class="social-card">
+                <span class="social-icon">🐙</span> GitHub
+            </a>
+            <a href="https://linkedin.com/in/ateeb-karim" target="_blank" rel="noopener" class="social-card">
+                <span class="social-icon">💼</span> LinkedIn
+            </a>
+            <span class="social-card" style="cursor: default">
+                <span class="social-icon">📍</span> Malakand, KPK
+            </span>
+        </div>
+    </section>
+    <footer>
+        <p>
+            Designed &amp; coded by <span class="grad">Ateeb Karim</span> · 2025 ·
+            Malakand, KPK · Open to opportunities
+        </p>
+        <p style="margin-top: 0.5rem">
+            <a href="https://github.com/Ateeb-Karim" target="_blank" rel="noopener"
+                style="color: var(--muted); margin: 0 0.8rem; transition: color 0.2s"
+                onmouseover="this.style.color = 'var(--accent)'"
+                onmouseout="this.style.color = 'var(--muted)'">GitHub</a>
+            <a href="https://linkedin.com/in/ateeb-karim" target="_blank" rel="noopener"
+                style="color: var(--muted); margin: 0 0.8rem; transition: color 0.2s"
+                onmouseover="this.style.color = 'var(--accent)'"
+                onmouseout="this.style.color = 'var(--muted)'">LinkedIn</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
