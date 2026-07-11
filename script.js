@@ -132,7 +132,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     filterButtons.forEach((clickedButton) => {
         clickedButton.addEventListener("click", () => {
-            // Toggle Active Classes on Buttons
             filterButtons.forEach((button) => button.classList.remove("active"));
             clickedButton.classList.add("active");
 
@@ -146,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 projectCard.style.transform = isMatchingFilter ? "" : "scale(0.95)";
                 projectCard.style.pointerEvents = isMatchingFilter ? "" : "none";
 
-                // Wait for css animations to wrap up before changing structural visibility
                 setTimeout(() => {
                     projectCard.classList.toggle("hidden", !isMatchingFilter);
                 }, 300);
