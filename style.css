@@ -825,6 +825,7 @@ h2.section-title {
     background: rgba(56, 189, 248, 0.07);
     border: 1px solid rgba(56, 189, 248, 0.15);
     color: var(--accent3);
+<<<<<<< HEAD
 }
 
 /* live demo button, sits inside a project card */
@@ -885,6 +886,8 @@ h2.section-title {
     align-self: flex-start;
     padding: 0.55rem 1.1rem;
     font-size: 0.78rem;
+=======
+>>>>>>> 3bb55ec55a2bb8c0c9193c2ac2b171f9fbd6520d
 }
 
 .timeline {
@@ -1267,4 +1270,8 @@ footer .grad {
         animation-duration: .01ms !important;
         transition-duration: .01ms !important
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3bb55ec55a2bb8c0c9193c2ac2b171f9fbd6520d
